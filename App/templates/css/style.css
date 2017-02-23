@@ -1,0 +1,318 @@
+.fix {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+body {
+    font-family: PT sans, arial;
+}
+
+header {
+    position: relative;
+    top: 75px;
+}
+
+article {
+    position: relative;
+    top: 150px;
+}
+
+footer {
+    position: relative;
+    top: 150px;
+}
+
+.input {
+    text-align: center;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #336699;
+    color: #336699;
+
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: "Segoe UI", PT sans, arial;
+    font-size: 35px;
+    font-weight: lighter;
+}
+
+h2 {
+    font-family: "Segoe UI", PT sans, arial;
+    font-size: 23px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-family: "Segoe UI", PT sans, arial;
+    font-size: 15px;
+}
+
+p {
+    font-size: 13px;
+}
+
+.block5 {
+    float: left;
+    height: 90px;
+    width: 20%;
+}
+
+.block4 {
+    float: left;
+    width: 25%;
+}
+
+.block3 {
+    float: left;
+    width: 33%;
+}
+
+.block2 {
+    float: left;
+    width: 50%;
+}
+
+.block1 {
+    float: left;
+    width: 100%;
+}
+
+.block2-3 {
+    float: left;
+    width: 66%;
+}
+
+.block3-4 {
+    float: left;
+    width: 75%;
+}
+
+.nav {
+    margin-left: 10%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    height: 35px;
+    width: 80%;
+    color: black;
+    border-width: 1px;
+    border-color: white;
+    border-style: dashed;
+    border-bottom: dashed 1px;
+}
+
+.nav:hover {
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #336699;
+    color: #336699;
+}
+
+.nav1 {
+    margin-left: 10%;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    line-height: 35px;
+    height: 35px;
+    width: 80%;
+    border-width: 1px;
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #336699;
+    color: white;
+}
+
+.button {
+    float: left;
+    text-align: center;
+    line-height: 50px;
+    position: relative;
+    left: 20px;
+    top: 8px;
+    height: 50px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #336699;
+    background: white;
+    color: #336699;
+
+}
+
+.button:hover {
+    background: #336699;
+    color: white;
+}
+
+.button1 {
+    float: left;
+    position: relative;
+    top: 0;
+    left: 10%;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: lightseagreen;
+    color: lightseagreen;
+
+}
+
+.button1:hover {
+    background: lightseagreen;
+    color: white;
+}
+
+.button2 {
+    float: left;
+    position: relative;
+    top: 0;
+    left: 10%;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    width: 120px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #336699;
+    color: #336699;
+
+}
+
+.button2:hover {
+    background: #336699;
+    color: white;
+}
+
+.button3 {
+    text-align: center;
+    line-height: 30px;
+    height: 35px;
+    width: 200px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #336699;
+    background: #336699;
+    color: white;
+
+}
+
+.button3:hover {
+    background: #50b09b;
+    border-color: #50b09b;
+    color: white;
+}
+
+.button5 {
+    float: left;
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    top: 11px;
+    height: 40px;
+    width: 250px;
+    border-radius: 5px;
+    border-width: 1px;
+    border-style: solid;
+    background: none;
+    border-color: #336699;
+    color: #336699;
+
+}
+
+.button5:hover {
+    background: #336699;
+    color: white;
+}
+
+.button6 {
+    text-align: center;
+    line-height: 35px;
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: red;
+    background: red;
+    color: white;
+
+}
+
+.button6:hover {
+    background: #ff6600;
+    border-color: #ff6600;
+
+}
+
+.link {
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    color: white;
+}
+
+.link:hover {
+    color: yellow;
+}
+
+.link2 {
+    text-decoration: none;
+    border-bottom: dotted 1px;
+    color: black;
+}
+
+.link2:hover {
+    color: #669999;
+}
+
+.modalwin {
+    height: 480px;
+    width: 320px;
+    border: 3px outset gray;
+    border-radius: 5px;
+    background: #ff6600;
+    top: 20%; /* отступ сверху */
+    right: 0;
+    left: 0;
+
+    margin: 0 auto;
+    z-index: 2; /* поверх всех */
+    display: none; /* сначала невидим */
+    position: fixed; /* фиксированное позиционирование, окно стабильно при прокрутке */
+    padding: 15px;
+    border: 1px solid #383838;
+}
+
+#shadow {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 1; /* поверх всех  кроме окна*/
+    background: #000;
+    opacity: 0.6; /*прозрачность*/
+    left: 0;
+    top: 0;
+}
+
+
+
